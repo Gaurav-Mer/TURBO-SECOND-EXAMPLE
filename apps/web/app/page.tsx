@@ -55,6 +55,7 @@ export default function Page(): JSX.Element {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
+        <button className="bg-red-500 p-3 rounded-md">Hey Gaurav</button>
         <p>
           examples/basic&nbsp;
           <Code className={styles.code}>web</Code>
